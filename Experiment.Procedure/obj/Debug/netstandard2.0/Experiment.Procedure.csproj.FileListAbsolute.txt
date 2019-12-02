@@ -1,0 +1,8 @@
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/bin/Debug/netstandard2.0/Experiment.Procedure.deps.json
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/bin/Debug/netstandard2.0/Experiment.Procedure.dll
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/bin/Debug/netstandard2.0/Experiment.Procedure.pdb
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/Debug/netstandard2.0/Experiment.Procedure.csprojAssemblyReference.cache
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/Debug/netstandard2.0/Experiment.Procedure.AssemblyInfoInputs.cache
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/Debug/netstandard2.0/Experiment.Procedure.AssemblyInfo.cs
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/Debug/netstandard2.0/Experiment.Procedure.dll
+/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/Debug/netstandard2.0/Experiment.Procedure.pdb

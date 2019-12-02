@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj": {}
+  },
+  "projects": {
+    "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj",
+        "projectName": "Experiment.Procedure",
+        "projectPath": "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj",
+        "packagesPath": "/home/obkm/.nuget/packages/",
+        "outputPath": "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/obkm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj",
+        "projectName": "Experiment",
+        "projectPath": "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj",
+        "packagesPath": "/home/obkm/.nuget/packages/",
+        "outputPath": "/home/obkm/dot net core/TheExperiment/Experiment/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/obkm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj": {
+                "projectPath": "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj"
+              },
+              "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj": {
+                "projectPath": "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj",
+        "projectName": "ExperimentSample",
+        "projectPath": "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj",
+        "packagesPath": "/home/obkm/.nuget/packages/",
+        "outputPath": "/home/obkm/dot net core/TheExperiment/ExperimentSample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/obkm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

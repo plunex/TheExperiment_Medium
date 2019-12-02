@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Experiment.Procedure\Experiment.Procedure.csproj" />
+    <ProjectReference Include="..\Experiment.Sample\Experiment.Sample.csproj" />
+  </ItemGroup>
+
+</Project>

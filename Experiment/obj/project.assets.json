@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Experiment.Procedure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Experiment.Procedure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Experiment.Procedure.dll": {}
+        }
+      },
+      "ExperimentSample/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExperimentSample.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExperimentSample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Experiment.Procedure/1.0.0": {
+      "type": "project",
+      "path": "../Experiment.Procedure/Experiment.Procedure.csproj",
+      "msbuildProject": "../Experiment.Procedure/Experiment.Procedure.csproj"
+    },
+    "ExperimentSample/1.0.0": {
+      "type": "project",
+      "path": "../ExperimentSample/ExperimentSample.csproj",
+      "msbuildProject": "../ExperimentSample/ExperimentSample.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Experiment.Procedure >= 1.0.0",
+      "ExperimentSample >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/obkm/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj",
+      "projectName": "Experiment",
+      "projectPath": "/home/obkm/dot net core/TheExperiment/Experiment/Experiment.csproj",
+      "packagesPath": "/home/obkm/.nuget/packages/",
+      "outputPath": "/home/obkm/dot net core/TheExperiment/Experiment/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/home/obkm/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj": {
+              "projectPath": "/home/obkm/dot net core/TheExperiment/Experiment.Procedure/Experiment.Procedure.csproj"
+            },
+            "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj": {
+              "projectPath": "/home/obkm/dot net core/TheExperiment/ExperimentSample/ExperimentSample.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
