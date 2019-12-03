@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  main-api:
+    build:
+      context: ./
+      dockerfile: Experiment/Dockerfile
+    restart: always
+    ports:
+      - "5000:80"
+ 
+        
